@@ -134,9 +134,9 @@ export default function MatrixEditor({ state, dispatch, onSave }: Props) {
               </tr>
             ))}
             <div>
-            <tr>
-              <td ></td>
-            </tr>
+            {/* <tr>
+              <td></td>
+            </tr> */}
             </div>
           </tbody>
         </table>
