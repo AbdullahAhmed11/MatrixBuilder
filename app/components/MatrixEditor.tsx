@@ -10,7 +10,6 @@ import { TbWorld } from "react-icons/tb";
 import {
   Select,
   MenuItem,
-  InputLabel,
   FormControl,
   InputAdornment,
   SelectChangeEvent
@@ -24,7 +23,6 @@ interface Props {
 
 export default function MatrixEditor({ state, dispatch, onSave }: Props) {
     const [selectedValue, setSelectedValue] = useState('مصفوفه');
-     const [checked, setChecked] = useState(false);
   const handleChange = (event: SelectChangeEvent) => {
     setSelectedValue(event.target.value as string);
   };
